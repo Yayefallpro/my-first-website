@@ -30,4 +30,5 @@ p {
   border: 10px solid darkgreen;
   margin: 0px;
   background-color: white;
+  border-radius: 10px;
 }
