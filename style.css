@@ -4,8 +4,9 @@ body {
   margin: 40px;
 }
 
-h1 {
+ h1 {
   color: #5f1e41;
+  }
   h1 {
   text-align: center;
 }
@@ -25,8 +26,8 @@ a {
   color: darkblue;
 }
 p {
-  padding: 15px;
-  border: 2px solid darkgreen;
-  margin: 20px;
+  padding: 40px;
+  border: 10px solid darkgreen;
+  margin: 0px;
   background-color: white;
 }
