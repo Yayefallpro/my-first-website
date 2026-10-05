@@ -58,7 +58,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: darkgreen;
+  background-color: navy;
   padding: 15px 30px;
 }
 
@@ -72,4 +72,21 @@ p {
   color: white;
   text-decoration: none;
   margin-left: 20px;
+}
+
+.links a:hover {
+  color: lightgreen;
+  text-decoration: underline;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.box {
+  background-color: white;
+  border: 2px solid darkgreen;
+  padding: 30px;
+  text-align: center;
 }
