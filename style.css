@@ -95,15 +95,29 @@ p {
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
 }
+#menuButton {
+  display: none;
+  margin-top: auto;
+  padding: 15px 30px;
+}
 @media (max-width: 900px) {
   .cards {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-
 @media (max-width: 600px) {
   .cards {
     grid-template-columns: 1fr;
+    }
+    #menuButton {
+  display: block;
+  margin-top: auto;
+}
+
+.links {
+  display: none;
+}
+
   }
 
   .navbar {
@@ -113,4 +127,10 @@ p {
   .links {
     flex-direction: column;
   }
-}
+#JavaButton {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100;
+  }

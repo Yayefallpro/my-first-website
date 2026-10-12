@@ -25,3 +25,22 @@ toggleButton.addEventListener("click", function () {
     secretMessage.style.display = "block";
   }
 });
+const JavaButton = document.getElementById("JavaButton");
+const secretMessage = document.getElementById("secretMessage");
+
+secretMessage.style.display = "none";
+JavaButton.textContent = "Show answer";
+
+JavaButton.addEventListener("click", function () {
+  if (secretMessage.style.display === "block") {
+    secretMessage.style.display = "none";
+    JavaButton.textContent = "Show answer";
+  } else {
+    secretMessage.style.display = "block";
+    JavaButton.textContent = "Hide answer";
+  }
+});
+
+let userAge = 32;
+console.log(userName);
+console.log(userAge);
